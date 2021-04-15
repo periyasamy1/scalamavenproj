@@ -1,0 +1,15 @@
+297bcf2c59e24bf985078229c6301a3e
+
+SSH key files '/home/periyasamy/.ssh/id_rsa' and '/home/periyasamy/.ssh/id_rsa.pub' have been generated under ~/.ssh to allow SSH access to the VM. If using machines without permanent storage, back up your keys to a safe location.
+
+az vm show --resource-group RG-TEST-SAMY --name QuickstartJenkins-vm -d --query [publicIps] --output tsv
+
+public ip: 20.39.38.27
+
+initial admin password in azure cli : ea8545f6706f4660ae20a6de8e22d9b5
+
+jenkins credentials:
+
+uname: admin
+pwd: periasamy
+
